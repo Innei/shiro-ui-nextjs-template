@@ -22,7 +22,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   shiro-rc:
     specifier: ^0.0.10
-    version: 0.0.10(@types/react-dom@18.2.25)(@types/react@18.2.79)(postcss@8.4.47)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.12)
+    version: 0.0.10(@types/react-dom@18.2.25)(@types/react@18.2.79)(postcss@8.4.47)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.13)
 
 devDependencies:
   '@types/node':
@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^8.4.47
     version: 8.4.47
   tailwindcss:
-    specifier: ^3.4.12
-    version: 3.4.12
+    specifier: ^3.4.13
+    version: 3.4.13
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -1328,7 +1328,7 @@ packages:
     dependencies:
       css-selector-tokenizer: 0.8.0
       culori: 3.3.0
-      picocolors: 1.0.1
+      picocolors: 1.1.0
       postcss-js: 4.0.1(postcss@8.4.47)
     transitivePeerDependencies:
       - postcss
@@ -2772,10 +2772,6 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
-  /picocolors@1.0.1:
-    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
-    dev: false
-
   /picocolors@1.1.0:
     resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
 
@@ -3118,7 +3114,7 @@ packages:
       '@shikijs/core': 1.2.0
     dev: false
 
-  /shiro-rc@0.0.10(@types/react-dom@18.2.25)(@types/react@18.2.79)(postcss@8.4.47)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.12):
+  /shiro-rc@0.0.10(@types/react-dom@18.2.25)(@types/react@18.2.79)(postcss@8.4.47)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.4.13):
     resolution: {integrity: sha512-ljoIrw2Ez22HuBVQSQMrbv6h/KZbF8WDSEwzkNf8+X/aSOHsNxh6srUdJkhBZqeH4lhdFeBG+XgtZpvJDNleyA==}
     dependencies:
       '@floating-ui/react-dom': 2.0.8(react-dom@18.2.0)(react@18.2.0)
@@ -3132,7 +3128,7 @@ packages:
       jotai: 2.7.1(@types/react@18.2.79)(react@18.2.0)
       shiki: 1.2.0
       tailwind-merge: 2.3.0
-      tailwind-variants: 0.2.0(tailwindcss@3.4.12)
+      tailwind-variants: 0.2.0(tailwindcss@3.4.13)
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
       - '@types/react'
@@ -3301,18 +3297,18 @@ packages:
       '@babel/runtime': 7.24.4
     dev: false
 
-  /tailwind-variants@0.2.0(tailwindcss@3.4.12):
+  /tailwind-variants@0.2.0(tailwindcss@3.4.13):
     resolution: {integrity: sha512-EuW5Sic7c0tzp+p5rJwAgb7398Jb0hi4zkyCstOoZPW0DWwr+EWkNtnZYEo5CjgE1tazHUzyt4oIhss64UXRVA==}
     engines: {node: '>=16.x', pnpm: '>=7.x'}
     peerDependencies:
       tailwindcss: '*'
     dependencies:
       tailwind-merge: 2.3.0
-      tailwindcss: 3.4.12
+      tailwindcss: 3.4.13
     dev: false
 
-  /tailwindcss@3.4.12:
-    resolution: {integrity: sha512-Htf/gHj2+soPb9UayUNci/Ja3d8pTmu9ONTfh4QY8r3MATTZOzmv6UYWF7ZwikEIC8okpfqmGqrmDehua8mF8w==}
+  /tailwindcss@3.4.13:
+    resolution: {integrity: sha512-KqjHOJKogOUt5Bs752ykCeiwvi0fKVkr5oqsFNt/8px/tA8scFPIlkygsf6jXrfCqGHz7VflA6+yytWuM+XhFw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
